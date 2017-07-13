@@ -1,0 +1,9 @@
+root        883  0.0  0.0 112648   976 pts/2    R+   23:54   0:00 grep --color=auto smip.py
+root     130886  0.0  0.1 113120  1200 pts/2    S    23:45   0:00 /bin/bash -c python smip.py>tmp
+root     130887  0.6  2.4 322180 24524 pts/2    S    23:45   0:03 python smip.py
+root        886  0.0  0.0 112648   972 pts/2    R+   23:54   0:00 grep --color=auto smip.py
+root     130886  0.0  0.1 113120  1200 pts/2    S    23:45   0:00 /bin/bash -c python smip.py>tmp
+root     130887  0.6  2.4 322180 24524 pts/2    S    23:45   0:03 python smip.py
+root        895  0.0  0.0 112648   976 pts/2    R+   23:57   0:00 grep --color=auto encoder.py
+root        899  0.0  0.0 112648   976 pts/2    R+   23:57   0:00 grep --color=auto encoder.py
+root        903  0.0  0.0 112648   976 pts/2    R+   23:57   0:00 grep --color=auto encoder.py

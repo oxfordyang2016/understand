@@ -1,0 +1,10 @@
+#!/bin/bash
+#in develop mode,you need to start the service via start redis service!
+(cd redis-stable&&./src/redis-server --daemonize yes)
+
+#start ivp service
+python ivp.py&python encoder.py>>./loggroup/encoderlog&python decoder.py>>./loggroup/decoderlog&python smip.py>>./loggroup/smiplog
+
+
+
+

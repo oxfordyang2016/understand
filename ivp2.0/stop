@@ -1,0 +1,29 @@
+#!/bin/bash
+echo "yangmingishere">./loggroup/stoplog
+ps aux|grep smip.py>>./loggroup/stoplog
+ps aux|grep encoder.py>>./loggroup/stoplog
+ps aux|grep decoder.py>>./loggroup/stoplog
+ps aux|grep ivp.py>>./loggroup/stoplog
+python stopservice.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
